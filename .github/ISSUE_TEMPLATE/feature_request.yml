@@ -1,0 +1,23 @@
+name: Предложить улучшение
+description: Расскажи, чего тебе не хватает в Sonar.
+title: "[Идея] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу хочется решить?
+      description: Опиши ситуацию, в которой пригодилось бы улучшение.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Как это могло бы работать?
+      description: Поделись идеей. При желании добавь примеры или изображение.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Как ты решаешь эту задачу сейчас?
+      description: Необязательно, но поможет понять контекст.

@@ -1,0 +1,40 @@
+name: Сообщить об ошибке
+description: Что-то работает не так? Помоги воспроизвести проблему.
+title: "[Ошибка] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия Sonar
+      placeholder: Например, 0.3.1
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows
+      placeholder: Например, Windows 11, 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      description: Опиши действия, после которых появляется ошибка.
+      placeholder: "1. Открыть…\n2. Нажать…\n3. Увидеть…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+      description: Что должно было произойти?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Что произошло
+      description: Можно приложить скриншот. Перед отправкой скрой личные данные.
+    validations:
+      required: true

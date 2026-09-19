@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sonar — браузер в твоём ритме</title>
+  <desc id="desc">Синий знак Sonar и название на тёмном фоне с расходящимися кругами.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111c2d"/>
+      <stop offset="1" stop-color="#080d16"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="78" y1="370" x2="430" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1354c7"/>
+      <stop offset=".46" stop-color="#1465e8"/>
+      <stop offset="1" stop-color="#8fd7ff"/>
+    </linearGradient>
+    <clipPath id="bounds"><rect width="1280" height="360" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1280" height="360" fill="url(#background)"/>
+    <g fill="none" stroke="#5793d5" stroke-opacity=".13">
+      <circle cx="1080" cy="180" r="76"/>
+      <circle cx="1080" cy="180" r="148"/>
+      <circle cx="1080" cy="180" r="220"/>
+      <circle cx="1080" cy="180" r="292"/>
+      <circle cx="1080" cy="180" r="364"/>
+    </g>
+    <circle cx="1080" cy="180" r="5" fill="#8fd7ff"/>
+    <g transform="translate(69 84) scale(.36)">
+      <path d="M360 93 C306 55 242 48 184 70 C106 100 59 173 65 261 C71 359 150 438 248 454 C333 468 397 430 424 372 C439 340 442 291 433 250 C420 181 398 127 360 93 C351 111 340 120 331 126 C388 166 417 204 418 249 C421 283 415 310 400 334 C370 374 317 398 257 391 C184 383 126 323 124 249 C122 188 157 134 211 115 C254 100 301 105 331 126 Z" fill="url(#blue)"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="292" y="182" font-size="88" font-weight="600" letter-spacing="-3" fill="#f1f6ff">Sonar</text>
+      <text x="296" y="234" font-size="25" fill="#a5b7cd">Браузер в твоём ритме.</text>
+      <text x="84" y="316" font-size="12" letter-spacing="3" fill="#71859f">WINDOWS / CHROMIUM / ELECTRON</text>
+    </g>
+  </g>
+</svg>
